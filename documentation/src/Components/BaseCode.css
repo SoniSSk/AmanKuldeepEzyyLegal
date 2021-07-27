@@ -1,0 +1,49 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.page-div {
+    display: flex;
+}
+
+.page-div-left {
+    margin: 50px auto;
+    width: 35%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 650px;
+    display: grid;
+    overflow: scroll;
+}
+
+.page-div-right {
+    margin: 50px auto;
+    width: 45%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 650px;
+    overflow: scroll;
+}
+
+.input-form {
+    width: 80%;
+    height: 40px;
+    font-size: large;
+    border: red 0.03rem dotted;
+}
+
+.data-doc {
+    padding: 2rem;
+}
+
+@media print {
+    .page-div-left {
+        display: none;
+    }
+    .page-div-right {
+        padding: 0rem;
+    }
+}
