@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-div {
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.ezy-logo-create {
+    color: blue;
+}
+
+.legal-logo-create {
+    color: red;
+}
+
+.subclass {
+    display: none;
+}
+
+.container ul li:hover .subclass {
+    display: block;
+    position: absolute;
+    background: #444;
+    margin-left: 20px;
+}
+
+.container ul li:hover .subclass ul {
+    display: block;
+    margin: 0px;
+}

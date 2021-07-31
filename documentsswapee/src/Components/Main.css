@@ -1,0 +1,44 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.page-div {
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.page-div-left {
+    margin: 50px auto;
+    width: 25%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    overflow: scroll;
+}
+
+.page-div-right {
+    margin: 50px auto;
+    width: 55%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    overflow: scroll;
+}
+
+.data-doc {
+    padding: 2rem;
+}
+
+@media print {
+    .page-div-left {
+        display: none;
+    }
+    .page-div-right {
+        padding: 0rem;
+    }
+}

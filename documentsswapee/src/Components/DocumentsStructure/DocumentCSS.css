@@ -1,0 +1,35 @@
+.page-div-right {
+  margin: 50px auto;
+  width: 55%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  overflow: scroll;
+}
+
+.Heading-div {
+  text-align: center;
+  color: red;
+}
+
+.data-doc {
+  padding: 2rem;
+}
+
+.flou {
+  color: transparent;
+  text-shadow: 0 0 8px #999;
+  font-weight: normal;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+
+.flou {
+  color: transparent;
+  background-color: #e0e0e0;
+  box-shadow: inset 0 0 15px 3px #fff;
+}

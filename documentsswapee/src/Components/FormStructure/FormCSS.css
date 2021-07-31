@@ -1,0 +1,48 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.page-div-left {
+    margin: 50px auto;
+    width: 30%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    display: grid;
+    overflow: scroll;
+}
+
+.Map-Div {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: rgb(60, 63, 228);
+}
+
+.input-form {
+    margin-bottom: 0.5rem;
+    width: 80%;
+}
+
+.input-form::placeholder {
+    color: #595959;
+    font-size: 12px;
+}
+
+.input-form {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 35px;
+    width: 80%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+}
